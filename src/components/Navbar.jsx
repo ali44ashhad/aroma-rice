@@ -1,16 +1,12 @@
 import React from "react";
-
+import logo from "../assets/logo.png";
 function Navbar() {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <a className="flex items-center" href="">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2459/2459773.png"
-              alt="Gold Aroma Rice Logo"
-              className="h-10"
-            />
+            <img src={logo} alt="Gold Aroma Rice Logo" className="h-10" />
             <span className="ml-2 text-xl font-bold text-amber-700">
               Gold Aroma Rice
             </span>
