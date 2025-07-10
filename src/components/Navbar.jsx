@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <a className="flex items-center" href="">
+          <a className="flex items-center" href="/">
             <img src={logo} alt="Gold Aroma Rice Logo" className="h-10" />
             <span className="ml-2 text-xl font-bold text-amber-700">
               Gold Aroma Rice
